@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>form-sardor</title>
+</head>
+<body>
+  
+  
+  <form class="money" method="post" autocomplete="off">
+    <input type="text" name="money" placeholder="enter your money"  class="money__input" aria-label="Enter your currency" required>
+    
+    <select class="money__select" name="choose your money" >
+      
+      <option selected disabled  value="select the desired currency">select the desired currency</option>
+      <option value="10900">UZS</option>
+      <option value="78.66">RUBL</option>
+      <option value="12272.64">EVRO</option>
+      
+    </select>
+    <button class="money__button" type="submit">count</button>
+    
+  </form>
+  <span class="money__span"></span>
+  
+  <script src="./js/main.js"></script>
+</body>
+</html>
